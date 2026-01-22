@@ -8,7 +8,7 @@ class Teacher:
         self.assigned_subjects = set()
 
     def __repr__(self):
-        return f"Teacher({self.first_name} {self.last_name}, {self.age} років)"
+        return f"Teacher({self.first_name} {self.last_name}, {self.age} years)"
 
 
 def create_schedule(subjects, teachers):
